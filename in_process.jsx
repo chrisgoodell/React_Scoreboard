@@ -19,9 +19,7 @@ function Header(props) {
 }
 
 var Counter = React.createClass({ 
-  propTypes: {
-    score: React.PropTypes.number.isRequired,
-  },
+  propTypes: { },
 
   getInitialState: function() {
     return {
